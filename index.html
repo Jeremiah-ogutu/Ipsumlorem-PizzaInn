@@ -17,7 +17,7 @@
     <div class="navigation_bar">
       <nav>
         <a href="#home">Home</a>
-        <a href="#services">services</a>
+        <a href="#varieties">varieties</a>
         <a href="#what-we-do">About us</a>
       <a href="#order">Order</a>
       </nav>
@@ -28,7 +28,7 @@
       <img src="/image/bg1.jpg" height="300" width="350">
       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </div>
-    <div id="services">
+    <div id="varieties">
       <div class="row">
         <h3>pizza varieties</h3>
         <div class="col-md-3">
@@ -86,8 +86,9 @@
 
 
 <div id="order">
+  <h2>Make your Order here!!!</h2>
   <label>choose your prefered pizza size</label><br>
-  <select class="custom-select custom-select-md mb-3" id="crust"required>
+  <select class="choose" id="size"required>
     <option value="choose size">choose size</option>
     <option value="small">small@600</option>
     <option value="large">large@1250</option>
@@ -103,7 +104,7 @@
     <option value="chikenbercule">chiken bercule</option>
   </select><br>
   <label>choose Quantity</label><br>
-  <select class="choose" id="crust"required>
+  <select class="choose" id="qnt"required>
     <option value="choose Quantity">choose Quantity</option>
     <option value="1">1</option>
     <option value="2">2</option>
@@ -114,7 +115,7 @@
     <option value="7">7</option>
   </select><br>
   <label>choose your prefered toppings</label><br>
-  <select class="choose" id="crust"required>
+  <select class="choose" id="topping"required>
     <option value="choose">choose toppings</option>
     <option value="broccolin">broccolin</option>
     <option value="Gorgozola">Gorgozola</option>
@@ -122,7 +123,7 @@
     <option value="minced mashroom">minced mashroom</option>
     <option value="mixed">mixed broccolin</option>
   </select><br>
-  <button type="buy">Add to Cart</button>
+  <button id="cart" type="buy">Add to Cart</button>
   </div>
   </div>
 
