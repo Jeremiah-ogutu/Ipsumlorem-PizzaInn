@@ -1,0 +1,47 @@
+
+.navigation_bar>nav>a{
+  display: inline;
+  text-align: center;
+  padding:14px 16px ;
+  background-color: goldenrod;
+}
+.navigation_bar{
+  float: right;
+  font-size: 20px;
+}
+
+/* .grid-container{
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template-columns: auto auto auto;
+  align-self:center;
+  margin: 5px;
+  padding: 100px;
+  width: 80%;
+  height: 300%;
+}
+.grid-item{
+  height: 300px; */
+
+#home{
+  background-image: url(/image/image2.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: aqua;
+  text-align: center;
+  margin-top: 30px;
+}
+.h3{
+  text-align: center;
+}
+
+
+
+#crust{
+  width: 150px;
+background-color: aqua;
+margin-top: 10px;
+width: 10%;
+}
