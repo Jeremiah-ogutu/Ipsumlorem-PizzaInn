@@ -9,6 +9,16 @@
   float: right;
   font-size: 20px;
 }
+#services{
+  text-align: center;
+  background-image: url(/image/download.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#what-we-do{
+  text-align: center;
+}
 
 /* .grid-container{
   display: grid;
